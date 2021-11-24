@@ -10,7 +10,6 @@ while True:
     Value = random.randint(1,20)
     num=input("请输入一个数：")
     num=int(num)
-    print(Value)
     if num == Value:
         print("你赢了")
         money+=300
