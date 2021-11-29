@@ -1,0 +1,8 @@
+print("数与数之间用,隔开!")
+a = list(eval(input("输入10个数：")))
+z=max(a)
+h=sum(a)
+aver=sum(a)/len(a)
+print("最大值：",z)
+print("和：",h)
+print("平均值：",aver)
